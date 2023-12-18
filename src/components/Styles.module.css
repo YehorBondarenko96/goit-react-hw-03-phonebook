@@ -1,0 +1,66 @@
+.phonebook, .contacts{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 1px #000 solid;
+    border-radius: 4px;
+    padding: 15px 0 10px 10px;
+    gap: 20px;
+    width: 300px;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input{
+    width: 130px;
+    font-size: 14px;
+}
+
+.button{
+    width: 90px;
+    font-size: 14px;
+}
+
+.nameInput{
+    font-size: 16px;
+}
+
+.listContacts{
+    list-style-type: disc;
+}
+
+.itemContscts{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.pItemContacts{
+    margin: 0;
+    padding: 0;
+}
+
+.itemContscts::before {
+    content: '\2022';
+    margin-bottom: 6px;
+    color: #333; 
+    font-size: 48px;
+    line-height: 0.5;
+}
+
+.buttonDelete{
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
